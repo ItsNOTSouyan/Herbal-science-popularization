@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    background: url(./assets/bg.jpg) repeat-y;
+    background-size: 100% auto;
+    overflow: hidden;
+}
+
+.medicine:nth-of-type(1) {
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    width: 500px;
+    height: 550px;
+    rotate: 15deg;
+    transition: all 1s ease;
+}
+
+/* .first {
+    top: -110px;
+    left: -110px;
+} */
+
+.medicine:nth-of-type(1):hover {
+    top: -110px;
+    left: -110px;
+}
+
+
+.bg:nth-of-type(2) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+}
+
+
+.medicine:nth-of-type(3) {
+    position: absolute;
+    bottom: -50px;
+    left: -130px;
+    width: 420px;
+    /* height: 500px; */
+    transition: all 1s ease;
+}
+
+.medicine:nth-of-type(3):hover {
+    bottom: -10px;
+    left: -90px;
+}
+
+
+.bg:nth-of-type(4) {
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    width: 300px;
+
+}
+
+.bg:nth-of-type(5) {
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 300px;
+}
+
+.medicine:nth-of-type(6) {
+    position: absolute;
+    top: -140px;
+    right: -200px;
+    width: 600px;
+    transition: all 1s ease;
+}
+
+.medicine:nth-of-type(6):hover {
+    top: -100px;
+    right: -160px;
+}
+
+
+.medicine:nth-of-type(7) {
+    position: absolute;
+    bottom: -250px;
+    right: -100px;
+    width: 600px;
+    transition: all 1s ease;
+}
+
+.medicine:nth-of-type(7):hover {
+    bottom: -210px;
+    right: -60px;
+}
+
+
+
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translateY(-50%);
+    display: block;
+    width: 135px;
+    /* opacity: 1;
+    transition: opacity 0.5 ease; */
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    width: 10vw;
+    height: 38vh;
+    /* display: none; */
+    /* border: 1px solid black; */
+    opacity: 0;
+    /* transition: opacity 0.3s ease-in-out; */
+}

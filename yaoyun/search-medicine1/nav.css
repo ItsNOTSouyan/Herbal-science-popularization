@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-top {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: #FFF9ED;
+    box-shadow: 0 4px 8px 0 rgba(136, 136, 136, 0.25);
+    border-bottom: 1px solid #ffffff;
+    z-index: 99;
+    /* opacity: 0;
+    transition: all 0.7s ease-in-out; */
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    width: 130px;
+    height: 100%;
+    background: url(./assets/logo1.png) no-repeat center;
+    background-size: contain;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.nav-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    font-family: "SimSun";
+    font-size: 18px;
+    font-weight: 800;
+    color: #96752f;
+    text-shadow: 2px 2px 1px rgba(136, 136, 136, 0.25)
+}
+
+.select {
+    background: url(../nav/assets/Rectangle1.png) no-repeat center !important;
+    background-size: cover !important;
+    border-bottom: 2px solid #F3B61B !important;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(255, 255, 255, .12);
+}
+
+.itemHover {
+    background: url(../nav/assets/Rectangle2.png) no-repeat center;
+    background-size: cover;
+    border-bottom: 2px solid rgba(243, 182, 27, .4);
+}
+
+.square {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    rotate: 45deg;
+    box-shadow: 0 -8px 12px 0 rgba(255, 255, 255, .5);
+    z-index: 99;
+}
+
+.personal {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    /* border-radius: 99px; */
+    margin-right: 50px;
+}
+
+.personal img {
+    width: 100%;
+    height: 100%;
+    border-radius: 99px;
+}
+
+.personal-window {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 0px;
+    border-radius: 6px;
+    background-color: #fffdf7;
+    opacity: 0;
+    transition: all 1.5s ease;
+    z-index: 99;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 1px rgb(95, 95, 95);
+    padding-bottom: 5px;
+}
+
+
+.list {
+    width: 100%;
+    height: 25%;
+    background: no-repeat center;
+    background-size: 40% 48%;
+}
+
+.list:hover {
+    background-color: #f0eee9;
+    cursor: pointer;
+}
+
+
+.line {
+    width: 60%;
+    height: 2px;
+    background-color: #dcdcc8;
+    margin: 0 auto;
+}
